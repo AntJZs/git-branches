@@ -6,12 +6,40 @@
     <title>Documento</title>
     <style>
       body {
+        --bg: #1e1e1e;
+        --fg: #d4d4d4;
         font-family: 'JetBrains Mono';
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg);
+        color: var(--fg);
+      }
+
+      .t {
+        background-color: var(--bg);
+        color: var(--fg);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        max-width: 800px;
+        margin: 50px auto;
+        border: 1px solid #333;
+      }
+
+      h1 {
+        color: #4ec9b0;
+      }
+
+      p {
+        color: #9cdcfe;
       }
     </style>
   </head>
   <body>
-    <h1>Rama principal (head)</h1>
-    <p>¡Bienvenido a la rama de prueba!</p>
+    <div class="t">
+      <h1>Rama principal (head)</h1>
+      <p>¡Bienvenido a la rama de prueba!</p>
+    </div>
+    <p>En esta rama se editaron algunos estilos, para que se vea mejor.</p>
   </body>
 </html>
